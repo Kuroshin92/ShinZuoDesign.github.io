@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Image/Shin%20Zuo%20Watermark.png"> 
+    <title>ShinZuoDesign</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/normalize.css">
+</head>
+<body> 
+   
+   <!-- Header--> 
+ <header>   
+
+    <!--LOGO--> 
+     <h2 id="page-header"> 
+     <img src ="Image/CB.jpg" alt="profile pic">
+       ShinZuoDesigns | Portfolio 
+     </h2>
+      
+     <!--NAVIGATION --> 
+      
+ <nav id="main-navigation"> 
+    <ul> 
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+     <li><a href="#testimonies">Testimonies</a></li> 
+    </ul>
+ </nav>
+     
+  </header>
+    
+    <!--MAIN--> 
+    <div id="page-main"> 
+     
+      <!--HERO--> 
+      
+      <div class="hero"> 
+        <div class="hero-content"> 
+            <h1 class="hero-title"> 
+            ShinZuo Designs 
+            </h1>
+            <p>
+                
+            </p>
+      </div>
+    </div>
+  
+      <!--SERVICES --> 
+      
+    <div id="services" class="site-section">
+      <div class="section-header"> 
+        <h2>Key Services</h2>
+            </div>     
+      <div class="site-section-inside">  
+        <div class="service-box">          
+          <img src="Image/Computer.png">
+            <h4>Computer repair</h4>   
+              <p>We provide computer repair services for laptops and Desktops. </p>      
+            </div>
+            
+       <div class="service-box">
+         <img src="Image/Web.png">
+           <h4>Web Developer </h4>   
+              <p>We can create websites for all your business needs. we'll bring high quailty work for all our clients. </p>      
+            </div>
+            
+       <div class="service-box">
+         <img src="Image/Cam.png">
+           <h4>Photogragphy</h4>   
+             <p>We take beutiful photo that will capture all the best moments that will last a life-time.</p></div>   
+       
+       </div>
+       
+       <!--ABOUT--> 
+       
+   <div id="about" class="section-header about"> 
+       <h2>About Me</h2>
+          <p>  
+           "Hello my name is Chermaine Boddie, I am the founder and Ceo of ShinZuo designs! I created this company in order to provide Visually Appealing, Funtional, and User Friendly web sites." 
+          </p>
+         </div>
+         
+         <!--TESTIMONIALS-->
+         
+  <section id="testimonies" class="site-section testimonials-section-secondary">
+    <div class="site-section-inside">
+       <div class= "section header">
+         <h2 id="testimonial">Testimonials</h2> 
+         </div>
+                 
+        <div class ="testimonial-box">
+         <div class="testimonial-content"> 
+                      This is where you would put a customer or mentor testimonial regarding the work that you have done or the product you have provided. 
+                 </div>
+       <div class=" testimonial-author">
+         <img src="Image/005-people.png" alt="Joseann">
+           <h5> Josie Ramsundar </h5>
+              <span>Sales Associate at Best Buy</span>
+            </div>
+        </div>
+        <div class="testimonial-box">
+         <div class ="testimonial-content">
+                         This is where you would put a customer or mentor testimonial regarding the work that you have done or the product you have provided.
+            </div>
+        <div class="testimonial-author">
+          <img src="Image/004-people-1.png" alt="Teron Davey"> 
+            <h5> Teron Davey</h5>
+               <span> Desktop level 2 Engineer</span>
+             </div>
+        </div>
+                <div class ="testimonial-box">
+         <div class=" testimonial-content"> 
+                      This is where you would put a customer or mentor testimonial regardin the work that you have done or the product you have provided. 
+                  </div> 
+       <div class=" testimonial-author">
+         <img src="Image/003-people-2.png" alt="Takilla Williams">
+        <h5> Takiella Williams </h5>
+         <span>Digital Marketing Agent</span>
+            </div>
+         </div>        
+    </div>
+</section> 
+		
+        <!--Button to Scroll to Top-->  
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     
+      <!--JAVASCRIPT-->  
+          <script>
+		// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	
+        <!--FOOTER--> 
+        
+    <footer id="footer">
+         <img src="Image/MasterJ.jpg" alt="Buddha">
+         <span>My Portfolio<br />&copy; 2018</span>
+       </footer>    
+                                  
+                                 
+</body>
+</html>
