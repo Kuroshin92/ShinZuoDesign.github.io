@@ -1,0 +1,135 @@
+/*CSS Design for site*/ 
+
+body { 
+	margin:0;
+    background-image:url('../Images/Bridge.jpg');
+	  line-height: ;
+	background-size:cover;
+	text-align: center;
+}
+
+/*header*/ 
+h1{ color:white; 
+	  padding-right:60%;
+      text-decoration: underline;
+	  text-transform: uppercase;
+	  font-family: Comic Sans MS,Impact;
+	  letter-spacing:10px;
+	  
+}
+
+header{ 
+	   
+	
+}
+
+
+
+header img { 
+	         width:120px;
+	         padding:50px;
+	         border-radius: 50%;
+             margin:0px;
+	         
+	         
+	         
+}
+
+/*Main email*/
+h3{ color: white;
+    font-size: 25px;
+	font-family:cursive, arial; 
+	text-align: center; 
+}
+
+
+input { 
+	   
+	
+}	     
+
+/*social media*/
+
+div ul {
+	    list-style:none;
+	
+}
+
+div ul li{ 
+	     float: left;
+	     margin-top:25%;
+	
+}
+
+div ul li a img{ width: 55px;
+	             border-radius: 5px;
+	             
+}
+
+
+
+footer{ background:#222;
+	    color:#777;
+	    padding: 20px;
+	    margin-top:30%;
+	    text-transform:none;
+	    font-family: cursive,
+}
+
+/*mobile responsive*/
+
+@media screen and (max-width: 756px) {
+	h3{ color: white;
+    font-size: 15px;
+	font-family:cursive,arial; 
+	text-align: center; 
+	}
+	
+	body { 
+	margin:0;
+    background-image:url('../Images/Bridge.jpg');
+	background-size:contain;
+	background-repeat:no-repeat;	
+	text-align: center;	
+	}
+	
+	
+	footer{ background:#222;
+	    color:#777;
+	    padding: 20px;
+	    margin-top:30%;
+	    text-transform:none;
+	    font-family:cursive, arial;
+		padding-right: 
+	}
+	
+		h1{ color:white; 
+	  padding-right:60%;
+      text-decoration: underline;
+	  text-transform: uppercase;
+	  font-family:Impact;
+	  letter-spacing:5px;
+	}
+	
+	div ul li{ 
+	     float: right;
+	     margin-top:20%;
+		
+	
+}
+	header img { 
+	         width:100px;
+	         padding:50px;
+	         border-radius: 50%;
+             margin:0px;
+	}
+	.facebook{ margin-top:21%;
+		       width: 10%;
+		
+	}
+	
+	.instagram {
+		         width: 8% 
+		
+	}
+}
