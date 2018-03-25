@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>City Life</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <!--Header--> 
+          <h1 id="main-title"> 
+          	  city life  	
+          </h1>
+       <header> 
+           <img src="Images/me2.jpg" alt="Profile Picture">
+             <p>
+           </p>
+       </header>
+	<!--Email input--> 
+     <div id="Main"> 
+         <h3> 
+          Subscribe to our email listing 
+		 </h3>
+       <form>
+       	Email: 
+           <input type="email" name="email" value="@example.com">
+           <input type="submit" value="Submit"/>
+          
+       </form>
+        
+		
+     </div>
+      
+    <!--SOCIAL MEDIA LINKS--> 
+    <div class="container">
+    	<ul class="social">
+		<li class="facebook"><a href="https://www.facebook.com/CBoddieinc/?modal=composer" class="entypo-facebook"><img src="Images/facebook.png"> </a></li>
+    	<li class="instagram"><a href="#"
+								 class="entypo-instagram"><img src="Images/instagrams.png"></a></li>	
+			
+    	</ul>
+    	
+    </div>
+	<!--footer--> 
+	<footer>
+	&copy;created by shinzuodesign 2018
+		
+	</footer>
+	<!--JAVASCRIPT FOR EMAIL-->
+      
+      <!--AN alert will be set up to greet clients to the site telling them to subcribe--> 
+	
+	<script>
+	  /*alert("Please enter email me if you want to see more content or if you would like to contact me for me to do your site for you.")*/
+	
+	</script>  
+</body>
+
+</html>
